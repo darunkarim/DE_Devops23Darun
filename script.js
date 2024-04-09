@@ -7,7 +7,7 @@ const showTable = function(moviesArray){
         allMoviesTBody.innerHTML += trText
     }
 
-}
+} 
 
 fetch('./data.json')
     .then((response) => response.json())
